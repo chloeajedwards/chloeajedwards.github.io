@@ -151,6 +151,12 @@ h2{font-weight:800;font-size:clamp(26px,3.4vw,38px);letter-spacing:-.02em;line-h
 .case.ochre .cnum,.case.ochre .copen,.case.ochre .csub,.case.ochre .body h4{color:var(--ochre-mid)}
 .case.ochre .ctitle,.case.ochre .body p{color:var(--ochre-ink)}
 
+a.caselink{display:grid;grid-template-columns:auto 1fr auto;gap:20px;align-items:center;padding:26px clamp(20px,3vw,34px);text-decoration:none;transition:transform var(--dur) var(--ease)}
+a.caselink:hover{transform:translateY(-3px)}
+a.caselink .ctitle,a.caselink .csub{display:block}
+.case .body a{color:inherit;text-decoration:underline;text-underline-offset:3px;font-weight:600}
+@media(max-width:640px){a.caselink{grid-template-columns:1fr;gap:10px}}
+
 .fractional{background:var(--ink);color:var(--paper);border-radius:0}
 .fractional .sec-label{color:var(--pine-tint)}
 .fractional h2{color:var(--paper)}
@@ -196,6 +202,7 @@ footer{background:var(--ink);color:var(--paper)}
     <nav class="main" aria-label="Main">
       <a href="#findings">Findings</a>
       <a href="#work">Work</a>
+      <a href="#packaging">Packaging</a>
       <a href="#fractional">Fractional</a>
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
@@ -290,6 +297,7 @@ footer{background:var(--ink);color:var(--paper)}
           <div><h4>The finding</h4><p>A full 4P diagnostic showed the brand was positioned and priced premium while its actual buyer was value-driven. Nearly every downstream problem traced back to that mismatch.</p></div>
           <div><h4>The rebuild</h4><p>Presented a pricing restructure to the executive team. Restructured promos around the real buyer. Redirected investment to the digital shelf and the West Coast. Built the company's first innovation process and launched 8 new SKUs, taking one from brief to shelf 3–4x faster than category standard. Pioneered AI video that revived a legacy campaign at roughly 2% of traditional production cost.</p></div>
           <div><h4>What happened</h4><p>+12% quarterly velocity in distributed accounts. +8% realized margin from the promo restructure. New shelf placements gained at two national retailers, and shelf held everywhere else. Retail media rebuilt on verified incrementality, with a third-party-measured +32% lift.</p></div>
+          <div><h4>Go deeper</h4><p><a href="packaging/foster-farms.html">The packaging rebuild, decision by decision &rarr;</a></p></div>
         </div>
       </details>
 
@@ -304,6 +312,7 @@ footer{background:var(--ink);color:var(--paper)}
           <div><h4>The finding</h4><p>The real buyer was a younger, multicultural, mostly male consumer who wanted bolder flavor and louder design. Nostalgia plus convenience: the Kidult.</p></div>
           <div><h4>The rebuild</h4><p>Rewrote the target, the problem, the reason to believe, and the channel plan. Moved influencer spend from macro names to a nano-and-micro model. Took the brand to the X Games with a Tony Hawk limited-edition co-brand. Reversed a renaming decision by proving Popcorn Chicken buyers were a distinct segment.</p></div>
           <div><h4>What happened</h4><p>+18% quarterly velocity after the pivot. +40% unaided awareness, the largest gain our research agency had ever recorded. Share grew double digits and distribution more than doubled. 6M+ impressions from the Tony Hawk partnership.</p></div>
+          <div><h4>Go deeper</h4><p><a href="packaging/pilgrims.html">The Popcorn Chicken rename, decision by decision &rarr;</a></p></div>
         </div>
       </details>
 
@@ -334,6 +343,35 @@ footer{background:var(--ink);color:var(--paper)}
           <div><h4>What happened</h4><p>Regional profitability multiplied. Installs grew 300%+ globally after the video strategy rolled out. The company grew from 24 to 120+ people during my tenure and was later acquired for approximately $1.7B.</p></div>
         </div>
       </details>
+
+    </div>
+  </div>
+</section>
+
+<section id="packaging">
+  <div class="wrap">
+    <p class="sec-label">Packaging &middot; Redesigns built on consumer evidence</p>
+    <h2>The shelf is the media plan.</h2>
+    <p class="sec-intro">Three frozen chicken brands, three packaging rebuilds. Each case shows the research, the naming decision, the before and after, and what every change was meant to do commercially.</p>
+    <div class="cases">
+
+      <a class="case ochre caselink reveal" href="packaging/just-bare.html">
+        <span class="cnum">PACKAGING 01</span>
+        <span><span class="ctitle">Just Bare</span><span class="csub">Naming architecture &middot; +83% findability, +7% velocity</span></span>
+        <span class="copen">READ &rarr;</span>
+      </a>
+
+      <a class="case peach caselink reveal" href="packaging/pilgrims.html">
+        <span class="cnum">PACKAGING 02</span>
+        <span><span class="ctitle">Pilgrim's</span><span class="csub">Popcorn Chicken rename &middot; +12% velocity, #1 brand in the form</span></span>
+        <span class="copen">READ &rarr;</span>
+      </a>
+
+      <a class="case forest caselink reveal" href="packaging/foster-farms.html">
+        <span class="cnum">PACKAGING 03</span>
+        <span><span class="ctitle">Foster Farms</span><span class="csub">Five-zone front-panel system &middot; in market now</span></span>
+        <span class="copen">READ &rarr;</span>
+      </a>
 
     </div>
   </div>
